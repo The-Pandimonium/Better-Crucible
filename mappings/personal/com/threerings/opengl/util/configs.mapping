@@ -1,0 +1,2 @@
+CLASS com/threerings/opengl/util/d com/threerings/opengl/util/configs
+	METHOD getApp getApp ()Lcom/threerings/opengl/a;

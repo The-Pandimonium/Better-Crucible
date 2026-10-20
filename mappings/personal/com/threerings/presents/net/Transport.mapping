@@ -1,0 +1,2 @@
+CLASS com/threerings/presents/net/Transport
+	FIELD arA reliability Lcom/threerings/presents/net/Transport;

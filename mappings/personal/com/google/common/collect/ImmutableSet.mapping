@@ -1,0 +1,2 @@
+CLASS com/google/common/collect/ImmutableSet
+	METHOD of of ()Lcom/google/common/collect/ImmutableSet;

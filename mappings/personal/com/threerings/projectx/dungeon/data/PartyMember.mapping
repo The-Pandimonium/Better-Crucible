@@ -1,0 +1,2 @@
+CLASS com/threerings/projectx/dungeon/data/PartyMember
+	FIELD joinOrder joinOrder I

@@ -1,0 +1,2 @@
+CLASS com/threerings/opengl/gui/f
+	METHOD addListener addListener (Lcom/threerings/opengl/gui/event/a;)V

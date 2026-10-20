@@ -1,0 +1,20 @@
+CLASS com/threerings/opengl/gui/P com/threerings/opengl/gui/gui
+	FIELD _clipboard _clipboard Ljava/awt/datatransfer/Clipboard;
+	FIELD _focus _focus Lcom/threerings/opengl/gui/o;
+	FIELD _globals _globals Ljava/util/concurrent/CopyOnWriteArrayList;
+	FIELD _lastMoveTime _lastMoveTime F
+	FIELD _lastTipTime _lastTipTime F
+	FIELD _modalShade _modalShade Lcom/threerings/opengl/renderer/Color4f;
+	FIELD _modifiers _modifiers I
+	FIELD _mouseX _mouseX I
+	FIELD _mouseY _mouseY I
+	FIELD _pressedKeys _pressedKeys Lcom/samskivert/util/HashIntMap;
+	FIELD _rendererObserver _rendererObserver Lcom/threerings/opengl/renderer/Renderer$c;
+	FIELD _scale _scale F
+	FIELD _tickParticipants _tickParticipants Lcom/samskivert/util/ObserverList;
+	FIELD _tickStamp _tickStamp J
+	FIELD _tipTime _tipTime F
+	FIELD _tipWidth _tipWidth I
+	FIELD _tipwin _tipwin Lcom/threerings/opengl/gui/aD;
+	FIELD _windows _windows Ljava/util/ArrayList;
+	CLASS c TickOperator

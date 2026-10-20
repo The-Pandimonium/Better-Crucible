@@ -1,0 +1,5 @@
+CLASS com/threerings/projectx/sprites/data/Harness
+	FIELD _harnessId _harnessId Ljava/lang/Long;
+	FIELD bGJ harness Lcom/threerings/projectx/sprites/data/Harness;
+	METHOD Mv GetHarnessConfig ()Lcom/threerings/config/ConfigReference;
+	METHOD YZ GetHarnessID ()J

@@ -1,0 +1,49 @@
+CLASS com/threerings/presents/client/Client
+	FIELD _creds _creds Lcom/threerings/presents/net/Credentials;
+	FIELD _observers _observers Lcom/samskivert/util/ObserverList;
+	FIELD _runQueue _runQueue Lcom/samskivert/util/at;
+	FIELD _version _version Ljava/lang/String;
+	FIELD ahg classloader Ljava/lang/ClassLoader;
+	FIELD apA tickInterval Lcom/samskivert/util/I;
+	FIELD apB operationsPerMili Lcom/samskivert/util/aB;
+	FIELD apC capture Lcom/threerings/presents/client/B;
+	FIELD apl authResponseData Lcom/threerings/presents/net/AuthResponseData;
+	FIELD apm publickey Ljava/security/PublicKey;
+	FIELD apt bootstrap Lcom/threerings/presents/net/BootstrapData;
+	FIELD apu services Ljava/util/HashSet;
+	FIELD Ny clientObject Lcom/threerings/presents/data/ClientObject;
+	METHOD <init> (Lcom/threerings/presents/net/Credentials;Lcom/samskivert/util/at;)V
+		ARG 1 credentials
+		ARG 2 at
+	METHOD a (Lcom/threerings/presents/net/Credentials;)V
+		ARG 1 credentials
+	METHOD a (Ljava/lang/String;[I[ILcom/threerings/presents/client/A$a;)V
+		ARG 1 string
+	METHOD a (Ljava/lang/String;[ILcom/threerings/presents/client/A$a;)V
+		ARG 1 string
+	METHOD a (Ljava/security/PublicKey;)Z
+		ARG 1 publicKey
+	METHOD b (Lcom/threerings/presents/net/BootstrapData;Lcom/threerings/presents/dobj/f;)V
+		ARG 1 bootstrapData
+	METHOD b (Ljava/lang/String;[I[I)V
+		ARG 1 string
+	METHOD bT (Ljava/lang/Class;)Ljava/lang/Object;
+		ARG 1 class1
+	METHOD bU (Ljava/lang/Class;)Ljava/lang/Object;
+		ARG 1 class1
+	METHOD dr (Ljava/lang/String;)Z
+		ARG 1 string
+	METHOD ds (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD dt (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD f ([B)V
+		ARG 1 arr
+	METHOD F (J)J
+		ARG 1 long1
+	METHOD G (J)J
+		ARG 1 long1
+	METHOD getRunQueue getRunQueue ()Lcom/samskivert/util/at;
+	METHOD isLoggedOn isLoggedOn ()Z
+	METHOD P (Z)V
+		ARG 1 boolean1

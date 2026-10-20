@@ -1,0 +1,4 @@
+CLASS com/threerings/whirled/zone/a/g com/threerings/whirled/zone/a/ZoneMarshallerInterface
+	METHOD a sendTo (IIILcom/threerings/whirled/zone/a/g$a;)V
+		ARG 4 zone
+	CLASS a zone

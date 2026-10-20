@@ -1,0 +1,2 @@
+CLASS com/threerings/projectx/data/Achievement
+	CLASS Type

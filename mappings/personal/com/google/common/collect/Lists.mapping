@@ -1,0 +1,2 @@
+CLASS com/google/common/collect/Lists
+	METHOD newArrayList newArrayList ()Ljava/util/ArrayList;

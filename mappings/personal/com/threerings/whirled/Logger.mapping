@@ -1,0 +1,2 @@
+CLASS com/threerings/whirled/a com/threerings/whirled/Logger
+	FIELD GN logger Lcom/samskivert/util/Z;

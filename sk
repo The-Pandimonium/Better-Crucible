@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# The one command of this project: ./sk COMMAND [ARGS]    (./sk help lists them; docs/building.md says what each does)
+#   ./sk setup           first: the libraries, the game's jars, the deobfuscated jar
+#   ./sk all             builds the server (work/dist/sk-emu.jar) and every client mod (work/dist/sk-ID.zip)
+#   ./sk test client     the real-client test       ./sk run   starts the server       ./sk mappings update   after the game was updated
+# Needs a JDK 25 (JAVA_HOME, or javac on the PATH), and the Spiral Knights folder (SK_GAME_DIR, or local.properties, or the Steam folder).
+cd "$(dirname "$0")" || exit 1
+if [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/javac" ]; then
+  JAVA="$JAVA_HOME/bin/java"
+elif [ -x "/c/Program Files/Java/jdk-25.0.4.1/bin/javac" ]; then
+  JAVA="/c/Program Files/Java/jdk-25.0.4.1/bin/java"
+elif command -v javac >/dev/null 2>&1; then
+  JAVA="$(dirname "$(command -v javac)")/java"
+else
+  echo "No JDK found: install JDK 25 or newer and set JAVA_HOME to it." >&2
+  exit 1
+fi
+if [ -z "$ENIGMA_JAR" ]; then
+  for f in lib/enigma-cli-*.jar; do [ -f "$f" ] && ENIGMA_JAR="$f" && break; done
+fi
+if [ ! -f "$ENIGMA_JAR" ]; then
+  echo "The Enigma CLI is not in lib/ (lib/enigma-cli-*.jar): put the project's build of it there, or set ENIGMA_JAR." >&2
+  exit 1
+fi
+export ENIGMA_JAR
+case "${1:-help}" in
+  help|-h|--help) exec "$JAVA" -cp "$ENIGMA_JAR" tools/build/Build.java ;;
+esac
+exec "$JAVA" -cp "$ENIGMA_JAR" tools/build/Build.java "$@"

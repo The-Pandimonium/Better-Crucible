@@ -1,0 +1,4 @@
+CLASS com/threerings/presents/b/b com/threerings/presents/b/context
+	METHOD xb dynamicInterface ()Lcom/threerings/presents/dobj/f;
+	METHOD zq config ()Lcom/samskivert/util/p;
+	METHOD zr client ()Lcom/threerings/presents/client/Client;

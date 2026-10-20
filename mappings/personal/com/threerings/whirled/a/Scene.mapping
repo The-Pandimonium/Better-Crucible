@@ -1,0 +1,11 @@
+CLASS com/threerings/whirled/a/d com/threerings/whirled/a/Scene
+	FIELD _sceneId _sceneId I
+	FIELD bXC SceneModels Ljava/util/Map;
+	FIELD bXF scene Lcom/threerings/whirled/data/SceneModel;
+	FIELD bXG selectedZoneID I
+	FIELD OO arrayList Ljava/util/ArrayList;
+	METHOD agr getScene ()Lcom/threerings/whirled/data/SceneModel;
+	METHOD ags GetSceneID ()I
+	METHOD agu MoveTo ()V
+	METHOD bl MoveTo (I)Z
+	METHOD dp loadScene (I)Lcom/threerings/whirled/data/SceneModel;

@@ -1,0 +1,3 @@
+CLASS com/threerings/projectx/data/ProjectXSceneObject
+	FIELD mapIcons mapIcons Lcom/threerings/presents/dobj/DSet;
+	FIELD projectXSceneService projectXSceneService Lcom/threerings/projectx/data/ProjectXSceneMarshaller;

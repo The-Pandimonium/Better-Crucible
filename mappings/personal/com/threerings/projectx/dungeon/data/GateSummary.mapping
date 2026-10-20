@@ -1,0 +1,33 @@
+CLASS com/threerings/projectx/dungeon/data/GateSummary
+	FIELD _colorizations _colorizations [Lcom/threerings/opengl/renderer/config/ColorizationConfig;
+	FIELD _description _description Ljava/lang/String;
+	FIELD _destId _destId I
+	FIELD _flags _flags I
+	FIELD _gateId _gateId Ljava/lang/Integer;
+	FIELD _icon _icon Ljava/lang/String;
+	FIELD _name _name Ljava/lang/String;
+	FIELD _ownerKnightId _ownerKnightId I
+	FIELD _priority _priority I
+	FIELD _sourceId _sourceId I
+	FIELD _tokens _tokens I
+	FIELD _wheels _wheels [Lcom/threerings/projectx/dungeon/data/GateSummary$Wheel;
+	METHOD a (Lcom/threerings/projectx/data/PlayerObject;J)Z
+		ARG 1 playerObject
+	METHOD a (Lcom/threerings/projectx/data/PlayerObject;JIZ)Z
+		ARG 1 playerObject
+		ARG 4 integer
+	METHOD bR isValid (I)Z
+		ARG 1 integer
+	METHOD Cn getGatePath ()Ljava/lang/String;
+	METHOD Co getColorizations ()[Lcom/threerings/opengl/renderer/config/ColorizationConfig;
+	METHOD getFlags getFlags ()I
+	METHOD getName getName ()Ljava/lang/String;
+	METHOD k checkTokens (Lcom/threerings/projectx/data/PlayerObject;)Z
+		ARG 1 playerObject
+	METHOD Qx getSourceID ()I
+	METHOD Qy getDestinationID ()I
+	METHOD zX getGateID ()I
+	CLASS Wedge
+	CLASS Wheel
+		FIELD _skip _skip B
+		FIELD _wedges _wedges [Lcom/threerings/projectx/dungeon/data/GateSummary$Wedge;

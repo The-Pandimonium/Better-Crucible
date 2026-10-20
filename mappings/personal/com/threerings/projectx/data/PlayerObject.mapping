@@ -1,0 +1,8 @@
+CLASS com/threerings/projectx/data/PlayerObject
+	FIELD equippedSprite equippedSprite I
+	FIELD expansions expansions Ljava/util/Set;
+	FIELD homeTown homeTown Lcom/threerings/projectx/town/data/TownSummary;
+	FIELD knight knight Lcom/threerings/util/Name;
+	FIELD knightId knightId I
+	FIELD sprites sprites Lcom/threerings/presents/dobj/DSet;
+	FIELD tokens tokens Lcom/threerings/projectx/data/ProjectXTokenRing;

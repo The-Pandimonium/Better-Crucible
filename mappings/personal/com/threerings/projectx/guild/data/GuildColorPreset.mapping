@@ -1,0 +1,2 @@
+CLASS com/threerings/projectx/guild/data/a com/threerings/projectx/guild/data/GuildColorPreset
+	FIELD bte colorizationConfig [Lcom/threerings/opengl/renderer/config/ColorizationConfig;

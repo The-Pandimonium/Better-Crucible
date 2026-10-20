@@ -1,0 +1,7 @@
+CLASS com/threerings/tudey/a/a com/threerings/tudey/a/ObserverImpl
+	FIELD bOH inputFrame Lcom/threerings/tudey/data/InputFrame;
+	FIELD bJn unackedFrames Ljava/util/List;
+	FIELD bOJ predictor Lcom/threerings/tudey/util/k;
+	FIELD bOI predictionHistory Ljava/util/List;
+	METHOD b makeInputFrame (JFF)V
+	METHOD b reconcilePawn (ILcom/threerings/tudey/data/actor/Actor;)V

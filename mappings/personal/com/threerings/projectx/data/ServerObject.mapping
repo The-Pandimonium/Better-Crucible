@@ -1,0 +1,30 @@
+CLASS com/threerings/projectx/data/ServerObject
+	FIELD auctionWonFeePercent auctionWonFeePercent F
+	FIELD avoidSupportSite avoidSupportSite Z
+	FIELD coinExchangeFee coinExchangeFee B
+	FIELD disabledAchievements disabledAchievements Ljava/util/Set;
+	FIELD disabledMissionPrefixes disabledMissionPrefixes Ljava/util/Set;
+	FIELD dungeonSparkOfLifeCost dungeonSparkOfLifeCost I
+	FIELD endSurveyProbability endSurveyProbability F
+	FIELD events events Ljava/util/Map;
+	FIELD gates gates Lcom/threerings/presents/dobj/DSet;
+	FIELD guildFormationCrowns guildFormationCrowns I
+	FIELD guildFormationEnergy guildFormationEnergy I
+	FIELD loveEnabled loveEnabled Z
+	FIELD loveUploadsEnabled loveUploadsEnabled Z
+	FIELD mailAttachFee mailAttachFee I
+	FIELD mailFee mailFee I
+	FIELD nodeName nodeName Ljava/lang/String;
+	FIELD pvpSparkOfLifeCost pvpSparkOfLifeCost I
+	FIELD rebootMessage rebootMessage Ljava/lang/String;
+	FIELD rebootTime rebootTime J
+	FIELD scopeVariables scopeVariables Ljava/util/Set;
+	FIELD spamwords spamwords [Ljava/lang/String;
+	FIELD towns towns Lcom/threerings/presents/dobj/DSet;
+	METHOD ao AreGateIDsMatching (II)Lcom/threerings/projectx/dungeon/data/RotatingGateSummary;
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD eY IsAGate (Ljava/lang/String;)Lcom/threerings/projectx/dungeon/data/GateSummary;
+		ARG 1 string
+	METHOD eZ getMissionGates (Ljava/lang/String;)Lcom/threerings/projectx/dungeon/data/MissionGateSummary;
+		ARG 1 string

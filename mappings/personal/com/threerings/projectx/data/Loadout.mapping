@@ -1,0 +1,9 @@
+CLASS com/threerings/projectx/data/Loadout
+	FIELD _name _name Ljava/lang/String;
+	FIELD harnessId harnessId J
+	FIELD perk perk Lcom/threerings/projectx/sprites/data/SpritePerk;
+	FIELD spriteId spriteId I
+	METHOD a HasBattleSpriteEquppied (Lcom/threerings/projectx/data/PlayerObject;Lcom/threerings/projectx/dungeon/data/PartyObject;)Z
+		ARG 1 playerObject
+	METHOD getName getName ()Ljava/lang/String;
+	METHOD MG IsEmpty ()Z

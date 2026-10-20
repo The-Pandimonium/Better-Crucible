@@ -1,0 +1,5 @@
+CLASS com/threerings/presents/dobj/f com/threerings/presents/dobj/DynamicInterface
+	METHOD a dynamicEvent (Lcom/threerings/presents/dobj/DEvent;)V
+	METHOD a dynamicEvent (Lcom/threerings/presents/dobj/DObject;Z)V
+	METHOD d dynamicObject (Lcom/threerings/presents/dobj/DObject;)Z
+		ARG 1 dObject

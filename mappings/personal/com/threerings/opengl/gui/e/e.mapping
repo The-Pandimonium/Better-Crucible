@@ -1,0 +1,12 @@
+CLASS com/threerings/opengl/gui/e/e
+	METHOD singleton singleton ()Lcom/threerings/opengl/gui/e/e;
+	CLASS b
+		METHOD keyPressed keyPressed (JIF)V
+		METHOD keyReleased keyReleased (JI)V
+	CLASS c
+		FIELD _consume _consume Z
+		FIELD _modifierMap _modifierMap Ljava/util/Map;
+		FIELD _modifierUsers _modifierUsers Lcom/samskivert/util/HashIntSet;
+		FIELD _observer _observer Lcom/threerings/opengl/gui/e/e$b;
+		FIELD _pressedKeys _pressedKeys Lcom/samskivert/util/HashIntSet;
+		FIELD _pressedModifiers _pressedModifiers I

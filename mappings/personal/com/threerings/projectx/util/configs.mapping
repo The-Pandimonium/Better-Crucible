@@ -1,0 +1,3 @@
+CLASS com/threerings/projectx/util/w com/threerings/projectx/util/configs
+	METHOD b (Lcom/threerings/projectx/data/DialogInfo;)V
+		ARG 1 dialogInfo

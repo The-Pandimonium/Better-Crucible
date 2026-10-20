@@ -1,0 +1,5 @@
+CLASS com/samskivert/util/D com/samskivert/util/IntMap
+	METHOD c put (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD ju set ()Ljava/util/Set;
+	CLASS a IntEntry
+		METHOD jA getIntKey ()I

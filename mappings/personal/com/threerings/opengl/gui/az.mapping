@@ -1,0 +1,6 @@
+CLASS com/threerings/opengl/gui/az
+	METHOD addListener addListener (Ljava/lang/String;Lcom/threerings/opengl/gui/event/c;)V
+	METHOD getComponent getComponent (Ljava/lang/String;)Lcom/threerings/opengl/gui/o;
+	METHOD setConfig setConfig (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD setText setText (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD setVisible setVisible (Ljava/lang/String;Z)V

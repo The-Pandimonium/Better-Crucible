@@ -1,0 +1,9 @@
+CLASS com/threerings/presents/client/G com/threerings/presents/client/ChatInterface
+	METHOD a chat4 (Lcom/threerings/presents/client/Client;)V
+		ARG 1 client
+	METHOD c chat2 (Lcom/threerings/presents/client/Client;)V
+		ARG 1 client
+	METHOD d chat3 (Lcom/threerings/presents/client/Client;)V
+		ARG 1 client
+	METHOD f chat1 (Lcom/threerings/presents/client/Client;)V
+		ARG 1 client

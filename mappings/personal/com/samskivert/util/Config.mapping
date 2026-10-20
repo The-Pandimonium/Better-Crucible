@@ -1,0 +1,7 @@
+CLASS com/samskivert/util/p com/samskivert/util/Config
+	METHOD a EnumerateKeys (Ljava/util/HashSet;)V
+	METHOD b GetValue (Ljava/lang/String;F)F
+	METHOD b GetValue (Ljava/lang/String;J)J
+	METHOD e GetValue (Ljava/lang/String;Z)Z
+	METHOD h GetValue (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD k GetValue (Ljava/lang/String;I)I

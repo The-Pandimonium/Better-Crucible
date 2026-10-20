@@ -1,0 +1,2 @@
+CLASS com/threerings/presents/dobj/CompoundEvent
+	METHOD cancel cancel ()V

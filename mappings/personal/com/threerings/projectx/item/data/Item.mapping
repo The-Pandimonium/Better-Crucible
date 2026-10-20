@@ -1,0 +1,2 @@
+CLASS com/threerings/projectx/item/data/Item
+	FIELD bvX itemId Ljava/lang/Long;

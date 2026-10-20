@@ -1,0 +1,7 @@
+CLASS com/threerings/opengl/gui/aD com/threerings/opengl/gui/window
+	FIELD _layer _layer I
+	FIELD _modal _modal Z
+	FIELD _parentWindow _parentWindow Lcom/threerings/opengl/gui/aD;
+	FIELD _root _root Lcom/threerings/opengl/gui/P;
+	FIELD _savedFocus _savedFocus Lcom/threerings/opengl/gui/o;
+	METHOD dismissListener dismissListener ()Lcom/threerings/opengl/gui/event/a;

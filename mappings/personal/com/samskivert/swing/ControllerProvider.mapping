@@ -1,0 +1,2 @@
+CLASS com/samskivert/swing/f com/samskivert/swing/ControllerProvider
+	METHOD iG GetController ()Lcom/samskivert/swing/c;

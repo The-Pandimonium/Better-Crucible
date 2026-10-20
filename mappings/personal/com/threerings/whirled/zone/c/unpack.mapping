@@ -1,0 +1,5 @@
+CLASS com/threerings/whirled/zone/c/a com/threerings/whirled/zone/c/unpack
+	METHOD b pack (BI)I
+	METHOD hm extractUpper (I)I
+	METHOD hn extractLower (I)I
+	METHOD ho split (I)Ljava/lang/String;

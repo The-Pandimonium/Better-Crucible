@@ -1,0 +1,6 @@
+CLASS com/threerings/presents/data/InvocationMarshaller
+	METHOD c (I[Ljava/lang/Object;)V
+		ARG 2 zone
+	CLASS ListenerMarshaller
+		FIELD aqE zone Lcom/threerings/presents/client/A$b;
+		FIELD aqF currentTime J

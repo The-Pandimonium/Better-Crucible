@@ -1,0 +1,4 @@
+CLASS com/google/common/collect/Ordering
+	METHOD immutableSortedCopy immutableSortedCopy (Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableList;
+	METHOD natural natural ()Lcom/google/common/collect/Ordering;
+	METHOD onResultOf onResultOf (Lcom/google/common/base/i;)Lcom/google/common/collect/Ordering;

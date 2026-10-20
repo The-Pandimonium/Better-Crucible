@@ -1,0 +1,2 @@
+CLASS com/google/common/collect/Sets
+	METHOD newHashSet newHashSet ()Ljava/util/HashSet;

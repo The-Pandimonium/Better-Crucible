@@ -1,0 +1,2 @@
+CLASS com/threerings/crowd/a/a
+	METHOD nk getChatManager ()Lcom/threerings/crowd/chat/client/b;

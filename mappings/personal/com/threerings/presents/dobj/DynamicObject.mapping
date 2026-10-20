@@ -1,0 +1,11 @@
+CLASS com/threerings/presents/dobj/DObject com/threerings/presents/dobj/DynamicObject
+	FIELD _oid _oid I
+	FIELD aqY compoundEvent Lcom/threerings/presents/dobj/CompoundEvent;
+	METHOD b (Ljava/lang/String;Lcom/threerings/presents/dobj/DSet$Entry;)V
+		ARG 1 string
+		ARG 2 entry
+	METHOD b (Ljava/lang/StringBuilder;)V
+		ARG 1 stringBuilder
+	METHOD toString toString (Ljava/lang/StringBuilder;)V
+		ARG 1 stringBuilder
+	METHOD xL getOID ()I

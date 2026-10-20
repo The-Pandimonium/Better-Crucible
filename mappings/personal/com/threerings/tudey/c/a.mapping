@@ -1,0 +1,7 @@
+CLASS com/threerings/tudey/c/a
+	FIELD bRM coord Lcom/threerings/tudey/util/Coord;
+	FIELD bSI extent2 Lcom/threerings/math/Rect;
+	FIELD bTc extent Lcom/threerings/math/Rect;
+	FIELD bTi max Lcom/threerings/tudey/util/Coord;
+	FIELD bTj min Lcom/threerings/tudey/util/Coord;
+	FIELD bTk vector Lcom/threerings/math/Vector2f;

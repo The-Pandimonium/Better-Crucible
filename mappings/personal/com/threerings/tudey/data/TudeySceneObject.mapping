@@ -1,0 +1,7 @@
+CLASS com/threerings/tudey/data/TudeySceneObject
+	FIELD tudeySceneService tudeySceneService Lcom/threerings/tudey/data/TudeySceneMarshaller;
+	METHOD adT GetPawnID ()I
+	METHOD gE ArePawnsComparable (I)I
+		ARG 1 pawn
+	METHOD gF GetOccupantInfo (I)Lcom/threerings/tudey/data/TudeyOccupantInfo;
+		ARG 1 pawn

@@ -1,0 +1,36 @@
+CLASS com/samskivert/util/ObserverList
+	METHOD a apply (Lcom/samskivert/util/ObserverList$b;)V
+	METHOD a checkedApply (Lcom/samskivert/util/ObserverList$b;Ljava/lang/Object;)Z
+		ARG 1 obop
+		ARG 2 object
+	METHOD a NewList (Lcom/samskivert/util/ObserverList$Policy;)Lcom/samskivert/util/ObserverList;
+		ARG 0 policy
+	METHOD add add (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD aE observerForLog (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD clear clear ()V
+	METHOD d add (ILjava/lang/Object;)Z
+		ARG 1 integer
+		ARG 2 object
+	METHOD isEmpty isEmpty ()Z
+	METHOD jY newSafeInOrder ()Lcom/samskivert/util/ObserverList;
+	METHOD jZ newFastUnsafe ()Lcom/samskivert/util/ObserverList;
+	METHOD remove remove (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD size size ()I
+	CLASS a Impl
+		FIELD Kv notifyPolicy Lcom/samskivert/util/ObserverList$Policy;
+		FIELD Kw _list Ljava/util/List;
+		FIELD Kx _checkDups Z
+		METHOD <init> (Lcom/samskivert/util/ObserverList$Policy;)V
+			ARG 1 policy
+		METHOD aF isDuplicate (Ljava/lang/Object;)Z
+			ARG 1 object
+		METHOD i setCheckDuplicates (Z)Lcom/samskivert/util/ObserverList;
+			ARG 1 boolean1
+		METHOD indexOf indexOf (Ljava/lang/Object;)I
+			ARG 1 object
+	CLASS b ObserverOp
+		METHOD apply apply (Ljava/lang/Object;)Z
+			ARG 1 object
+	CLASS Policy

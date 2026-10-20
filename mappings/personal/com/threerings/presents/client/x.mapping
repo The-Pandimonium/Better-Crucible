@@ -1,0 +1,3 @@
+CLASS com/threerings/presents/client/x
+	FIELD Ny playerObject Lcom/threerings/presents/data/ClientObject;
+	METHOD xv incrementID ()S

@@ -1,0 +1,3 @@
+CLASS com/threerings/projectx/client/df
+	METHOD <init> (Lcom/threerings/projectx/client/ProjectXApp;Lcom/samskivert/util/at;)V
+		ARG 1 projectXApp

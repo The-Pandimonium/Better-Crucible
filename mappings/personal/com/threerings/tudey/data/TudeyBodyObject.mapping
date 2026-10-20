@@ -1,0 +1,2 @@
+CLASS com/threerings/tudey/data/TudeyBodyObject
+	FIELD pawnId pawnId I

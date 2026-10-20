@@ -1,0 +1,9 @@
+CLASS com/threerings/tudey/data/TudeySceneModel
+	FIELD bSC SceneEntries Ljava/util/WeakHashMap;
+	FIELD bSD Coords Lcom/threerings/tudey/util/CoordIntMap;
+	FIELD bSE Coord2 Lcom/threerings/tudey/util/CoordIntMap;
+	FIELD bSF Coord3 Lcom/threerings/tudey/util/CoordIntMap;
+	FIELD bSG size Lcom/threerings/tudey/c/a;
+	FIELD bSu TileSet Ljava/util/Map;
+	FIELD bSv SceneObjectIndex Ljava/util/HashMap;
+	FIELD bSy Layers Ljava/util/List;

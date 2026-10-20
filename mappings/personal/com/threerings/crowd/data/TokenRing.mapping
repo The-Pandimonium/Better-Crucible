@@ -1,0 +1,9 @@
+CLASS com/threerings/crowd/data/TokenRing
+	FIELD _tokens _tokens I
+	METHOD <init> (I)V
+		ARG 1 integer
+	METHOD bp Equals (I)Z
+		ARG 1 integer
+	METHOD bq NotEquals (I)Z
+		ARG 1 integer
+	METHOD isAdmin isAdmin ()Z

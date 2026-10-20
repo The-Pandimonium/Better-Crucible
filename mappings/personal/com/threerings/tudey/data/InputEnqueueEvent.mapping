@@ -1,0 +1,6 @@
+CLASS com/threerings/tudey/data/InputEnqueueEvent
+	FIELD acknowledge acknowledge I
+	FIELD frames frames [Lcom/threerings/tudey/data/InputFrame;
+	FIELD smoothedTime smoothedTime I
+	METHOD <init> (III[Lcom/threerings/tudey/data/InputFrame;)V
+		ARG 4 arr

@@ -1,0 +1,6 @@
+CLASS com/threerings/whirled/zone/a/b com/threerings/whirled/zone/a/zone
+	FIELD bXS Scene Lcom/threerings/whirled/a/d;
+	FIELD bXT ZoneMarshaller Lcom/threerings/whirled/zone/a/g;
+	FIELD bXW oldZoneID I
+	FIELD bXX newZoneID I
+	METHOD agu moveTo ()V

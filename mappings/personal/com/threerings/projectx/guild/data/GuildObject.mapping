@@ -1,0 +1,28 @@
+CLASS com/threerings/projectx/guild/data/GuildObject
+	FIELD attributes attributes Ljava/util/Set;
+	FIELD designSceneId designSceneId I
+	FIELD energy energy I
+	FIELD formed formed J
+	FIELD guildId guildId I
+	FIELD guildPeerService guildPeerService Lcom/threerings/projectx/guild/data/GuildPeerMarshaller;
+	FIELD hallOpen hallOpen Z
+	FIELD hallSceneId hallSceneId I
+	FIELD inDefault inDefault Z
+	FIELD memberLimit memberLimit I
+	FIELD members members Lcom/threerings/presents/dobj/DSet;
+	FIELD motd motd Ljava/lang/String;
+	FIELD name name Lcom/threerings/util/Name;
+	FIELD speakService speakService Lcom/threerings/crowd/chat/data/SpeakMarshaller;
+	FIELD upkeepCost upkeepCost I
+	FIELD upkeepTime upkeepTime J
+	METHOD a ComparePlayerRank (Lcom/threerings/projectx/data/PlayerObject;B)Z
+		ARG 1 playerObject
+	METHOD a HasSufficientRank (Lcom/threerings/projectx/guild/data/GuildMemberEntry;B)Z
+	METHOD b (Lcom/threerings/projectx/guild/data/GuildMemberEntry;)Z
+		ARG 1 guildMemberEntry
+	METHOD l (Lcom/threerings/projectx/data/PlayerObject;)Z
+		ARG 1 playerObject
+	METHOD m (Lcom/threerings/projectx/data/PlayerObject;)Z
+		ARG 1 playerObject
+	METHOD n (Lcom/threerings/projectx/data/PlayerObject;)Z
+		ARG 1 playerObject

@@ -1,0 +1,6 @@
+CLASS com/threerings/projectx/admin/data/SupportConfigObject
+	FIELD alertwords alertwords [Ljava/lang/String;
+	FIELD avoidSupportSite avoidSupportSite Z
+	FIELD invocationMethodBlocks invocationMethodBlocks [Ljava/lang/String;
+	FIELD kickPermissionFailures kickPermissionFailures Z
+	FIELD spamwords spamwords [Ljava/lang/String;

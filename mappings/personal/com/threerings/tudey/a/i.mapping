@@ -1,0 +1,5 @@
+CLASS com/threerings/tudey/a/i com/threerings/tudey/a/View
+	FIELD bPw actorSprites Lcom/samskivert/util/HashIntMap;
+	METHOD acu getSceneLag ()I
+	METHOD acv getSceneTime ()I
+	METHOD PO getPawnSprite ()Lcom/threerings/tudey/a/b/a;

@@ -1,0 +1,3 @@
+CLASS com/threerings/projectx/dungeon/util/i com/threerings/projectx/dungeon/util/PawnAdvancerImpl
+	FIELD blQ weaponSlot I
+	METHOD Sa drawWeapon ()V

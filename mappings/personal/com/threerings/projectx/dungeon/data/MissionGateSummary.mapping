@@ -1,0 +1,7 @@
+CLASS com/threerings/projectx/dungeon/data/MissionGateSummary
+	FIELD _expansionId _expansionId Ljava/lang/String;
+	FIELD _prestigeId _prestigeId Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;[Lcom/threerings/opengl/renderer/config/ColorizationConfig;Ljava/lang/String;IIIIII[Lcom/threerings/projectx/dungeon/data/GateSummary$Wheel;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 13 expansionID
+		ARG 14 prestigeID
+	METHOD QR getSubstring ()Ljava/lang/String;

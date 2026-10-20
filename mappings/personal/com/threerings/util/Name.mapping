@@ -1,0 +1,4 @@
+CLASS com/threerings/util/Name
+	FIELD _name _name Ljava/lang/String;
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD gy GetLowercase (Ljava/lang/String;)Ljava/lang/String;

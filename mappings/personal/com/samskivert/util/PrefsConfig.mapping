@@ -1,0 +1,11 @@
+CLASS com/samskivert/util/ae com/samskivert/util/PrefsConfig
+	FIELD KC _propsup Ljava/beans/PropertyChangeSupport;
+	METHOD a addPropertyChangeListener (Ljava/beans/PropertyChangeListener;)V
+	METHOD a addPropertyChangeListener (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+	METHOD ay remove (Ljava/lang/String;)V
+	METHOD b setValue (Ljava/lang/String;[I)V
+	METHOD c setValue (Ljava/lang/String;F)V
+	METHOD f setValue (Ljava/lang/String;Z)V
+	METHOD i setValue (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD l setValue (Ljava/lang/String;I)V
+	CLASS a NullPreferences

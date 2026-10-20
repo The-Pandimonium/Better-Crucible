@@ -1,0 +1,4 @@
+samskivert bb253b6 https://github.com/samskivert/samskivert.git
+clyde f8a2aec https://github.com/threerings/clyde.git
+narya 2961825 https://github.com/threerings/narya.git
+nenya 522ab1b https://github.com/threerings/nenya.git

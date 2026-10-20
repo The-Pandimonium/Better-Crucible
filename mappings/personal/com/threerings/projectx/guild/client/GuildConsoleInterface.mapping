@@ -1,0 +1,4 @@
+CLASS com/threerings/projectx/guild/client/a com/threerings/projectx/guild/client/GuildConsoleInterface
+	FIELD bpG guildHallSceneObject Lcom/threerings/projectx/guild/data/GuildHallSceneObject;
+	METHOD <init> (Lcom/threerings/projectx/util/w;Lcom/threerings/projectx/client/dA;Lcom/threerings/projectx/guild/data/ConsoleDialogInfo;)V
+		ARG 3 consoleDialogInfo

@@ -1,0 +1,12 @@
+CLASS com/threerings/b/f com/threerings/b/resourceManager
+	FIELD ahg classloader Ljava/lang/ClassLoader;
+	FIELD bNL file Ljava/io/File;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+		ARG 3 classLoader
+	CLASS b ModifyResource
+		METHOD resourceModified resourceModified (Ljava/lang/String;J)V
+	CLASS c
+		FIELD _file _file Ljava/io/File;
+		FIELD _lastModified _lastModified J
+		METHOD <init> (Ljava/io/File;)V
+			ARG 1 file

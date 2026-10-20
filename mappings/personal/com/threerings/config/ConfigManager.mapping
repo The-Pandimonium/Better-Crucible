@@ -1,0 +1,20 @@
+CLASS com/threerings/config/ConfigManager
+	FIELD _classes _classes Ljava/util/HashMap;
+	FIELD _configPath _configPath Ljava/lang/String;
+	FIELD _configsById _configsById Ljava/util/Map;
+	FIELD _groupListener _groupListener Lcom/threerings/config/b;
+	FIELD _groups _groups Ljava/util/HashMap;
+	FIELD _ignoreUpdates _ignoreUpdates Z
+	FIELD _msgmgr _msgmgr Lcom/threerings/util/R;
+	FIELD _parent _parent Lcom/threerings/config/ConfigManager;
+	FIELD _resources _resources Ljava/util/Map;
+	FIELD _rsrcmgr _rsrcmgr Lcom/threerings/b/f;
+	FIELD _type _type Ljava/lang/String;
+	FIELD _updateListeners _updateListeners Lcom/samskivert/util/ObserverList;
+	METHOD a (Ljava/lang/String;Lcom/threerings/config/ConfigManager;)V
+		ARG 2 configManager
+	METHOD getMessageManager getMessageManager ()Lcom/threerings/util/R;
+	METHOD getResourceManager getResourceManager ()Lcom/threerings/b/f;
+	METHOD kO GetParent ()Lcom/threerings/config/ConfigManager;
+	METHOD kP GetParentOrThis ()Lcom/threerings/config/ConfigManager;
+	METHOD kQ GetConfigPath ()Ljava/lang/String;

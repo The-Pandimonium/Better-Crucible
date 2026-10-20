@@ -1,0 +1,3 @@
+CLASS com/threerings/opengl/a com/threerings/opengl/renderer
+	FIELD _compositor _compositor Lcom/threerings/opengl/compositor/b;
+	FIELD _renderer _renderer Lcom/threerings/opengl/renderer/Renderer;

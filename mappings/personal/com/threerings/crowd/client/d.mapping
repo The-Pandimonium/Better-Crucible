@@ -1,0 +1,3 @@
+CLASS com/threerings/crowd/client/d
+	FIELD OF placeObject Lcom/threerings/crowd/data/PlaceObject;
+	FIELD OJ Time J

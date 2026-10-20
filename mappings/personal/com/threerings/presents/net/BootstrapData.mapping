@@ -1,0 +1,2 @@
+CLASS com/threerings/presents/net/BootstrapData
+	FIELD services services Ljava/util/List;

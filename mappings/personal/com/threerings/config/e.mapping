@@ -1,0 +1,2 @@
+CLASS com/threerings/config/e
+	FIELD LO configurationManager Lcom/threerings/config/ConfigManager;

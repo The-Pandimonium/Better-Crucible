@@ -1,0 +1,2 @@
+CLASS com/threerings/projectx/dungeon/data/MissionPartyObject
+	FIELD missionId missionId Ljava/lang/String;

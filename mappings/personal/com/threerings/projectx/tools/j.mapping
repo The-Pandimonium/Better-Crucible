@@ -1,0 +1,5 @@
+CLASS com/threerings/projectx/tools/j
+	METHOD <init> (Lcom/threerings/projectx/tools/PseudoPlayer;Lcom/threerings/presents/net/Credentials;Lcom/samskivert/util/at;)V
+		ARG 1 pseudoPlayer
+		ARG 2 credentials
+		ARG 3 at

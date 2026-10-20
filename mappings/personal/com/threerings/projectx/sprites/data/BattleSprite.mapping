@@ -1,0 +1,21 @@
+CLASS com/threerings/projectx/sprites/data/BattleSprite
+	FIELD _bonuses _bonuses Ljava/util/List;
+	FIELD _currentPerk _currentPerk Lcom/threerings/projectx/sprites/data/SpritePerk;
+	FIELD _dirty _dirty Z
+	FIELD _fullStamp _fullStamp J
+	FIELD _heatProgress _heatProgress F
+	FIELD _id _id I
+	FIELD _lastFull _lastFull Ljava/lang/Long;
+	FIELD _level _level I
+	FIELD _name _name Ljava/lang/String;
+	FIELD _perkLevel _perkLevel I
+	FIELD _perkSet _perkSet Ljava/util/Set;
+	FIELD bGD harness Lcom/threerings/projectx/sprites/data/Harness;
+	FIELD bGF battleSpriteConfiguration Lcom/threerings/projectx/sprites/config/BattleSpriteConfig;
+	FIELD bGG harnessConfig Lcom/threerings/projectx/sprites/config/HarnessConfig;
+	METHOD a (Lcom/threerings/projectx/sprites/data/BattleSprite;Lcom/threerings/projectx/sprites/data/BattleSprite;)Z
+		ARG 0 battleSprite1
+		ARG 1 battleSprite2
+	METHOD ab (Lcom/threerings/config/ConfigManager;)Lcom/threerings/projectx/sprites/config/HarnessConfig;
+		ARG 1 configManager
+	CLASS SkillBonus

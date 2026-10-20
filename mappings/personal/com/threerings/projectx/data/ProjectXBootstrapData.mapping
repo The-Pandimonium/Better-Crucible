@@ -1,0 +1,4 @@
+CLASS com/threerings/projectx/data/ProjectXBootstrapData
+	FIELD datagramPorts datagramPorts [I
+	FIELD hostname hostname Ljava/lang/String;
+	FIELD ports ports [I

@@ -1,0 +1,17 @@
+CLASS com/samskivert/util/HashIntMap
+	FIELD Jl keySet Lcom/samskivert/util/F;
+	METHOD d removeImpl (IZ)Lcom/samskivert/util/HashIntMap$c;
+	METHOD entrySet intEntrySet ()Ljava/util/Set;
+	METHOD jv intKeySet ()Lcom/samskivert/util/F;
+	METHOD jw elements ()Ljava/util/Iterator;
+	CLASS a IntEntryIterator
+	CLASS b MapEntryIterator
+	CLASS c record
+		FIELD Jt next Lcom/samskivert/util/HashIntMap$c;
+		FIELD Ju key I
+		METHOD clone clone ()Ljava/lang/Object;
+		METHOD getKey getKey ()Ljava/lang/Object;
+	CLASS d RecordIterator
+		FIELD Jv _record Lcom/samskivert/util/HashIntMap$c;
+		FIELD Jw _last Lcom/samskivert/util/HashIntMap$c;
+		METHOD jC nextRecord ()Lcom/samskivert/util/HashIntMap$c;

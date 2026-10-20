@@ -1,0 +1,18 @@
+CLASS com/samskivert/util/Z com/samskivert/util/Logger
+	FIELD Kr _factory Lcom/samskivert/util/Z$a;
+	METHOD a doLog (ILjava/lang/Object;[Ljava/lang/Object;)V
+	METHOD a setFactory (Lcom/samskivert/util/Z$a;)V
+		ARG 0 factory
+	METHOD ax GetLogger (Ljava/lang/String;)Lcom/samskivert/util/Z;
+	METHOD b DoLog (ILjava/lang/String;Ljava/lang/Throwable;)V
+	METHOD bb shouldLog (I)Z
+	METHOD d debug (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD e Info (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD f Warning (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD g Error (Ljava/lang/Object;[Ljava/lang/Object;)V
+	METHOD jU _factory ()V
+	METHOD jV createConfiguredFactory ()Lcom/samskivert/util/Z$a;
+	CLASS a Factory
+		METHOD ax GetLogger (Ljava/lang/String;)Lcom/samskivert/util/Z;
+			ARG 1 string
+		METHOD init init ()V

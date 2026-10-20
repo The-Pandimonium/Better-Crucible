@@ -1,0 +1,2 @@
+CLASS com/threerings/opengl/gui/aw
+	METHOD isSelected isSelected ()Z

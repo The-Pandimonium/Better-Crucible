@@ -1,0 +1,5 @@
+# Everything generated or taken from the game lives in work/: the game's jars, the deobfuscated jar and source, the build output. None of it is committed.
+/work/
+/local.properties
+*.log
+sk-*.zip

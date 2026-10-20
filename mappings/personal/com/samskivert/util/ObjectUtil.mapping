@@ -1,0 +1,2 @@
+CLASS com/samskivert/util/ac com/samskivert/util/ObjectUtil
+	METHOD m equals (Ljava/lang/Object;Ljava/lang/Object;)Z

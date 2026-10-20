@@ -1,0 +1,8 @@
+CLASS com/samskivert/swing/c com/samskivert/swing/Controller
+	METHOD a HandleAction (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Z
+	METHOD a GenerateArguments (Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/Object;)[Ljava/lang/Object;
+	METHOD b handleAction (Ljava/awt/event/ActionEvent;)Z
+	CLASS a ActionInvoker
+		FIELD Hb _action Ljava/awt/event/ActionEvent;
+		METHOD <init> (Ljava/awt/event/ActionEvent;)V
+			ARG 1 actionEvent

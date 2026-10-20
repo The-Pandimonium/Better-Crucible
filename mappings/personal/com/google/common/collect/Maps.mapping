@@ -1,0 +1,2 @@
+CLASS com/google/common/collect/Maps
+	METHOD newHashMap newHashMap ()Ljava/util/HashMap;

@@ -1,0 +1,7 @@
+CLASS com/threerings/opengl/gui/o com/threerings/opengl/gui/focus
+	FIELD _height _height I
+	FIELD _preferredSize _preferredSize Lcom/threerings/opengl/gui/e/b;
+	FIELD _width _width I
+	FIELD _x _x I
+	FIELD _y _y I
+	METHOD setTooltipText setTooltipText (Ljava/lang/String;)V

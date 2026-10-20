@@ -1,0 +1,20 @@
+CLASS com/threerings/projectx/dungeon/data/PartyObject
+	FIELD depth depth I
+	FIELD dismissStamp dismissStamp J
+	FIELD hasPickups hasPickups Z
+	FIELD health health Lcom/threerings/presents/dobj/DSet;
+	FIELD members members Lcom/threerings/presents/dobj/DSet;
+	FIELD partyService partyService Lcom/threerings/projectx/dungeon/data/PartyMarshaller;
+	FIELD spawn spawn Lcom/threerings/math/Vector2f;
+	FIELD speakService speakService Lcom/threerings/crowd/chat/data/SpeakMarshaller;
+	FIELD status status Lcom/threerings/presents/dobj/DSet;
+	FIELD visited visited Ljava/util/Set;
+	METHOD a (Lcom/threerings/projectx/data/Loadout;Lcom/threerings/projectx/data/PlayerObject;)Z
+		ARG 1 loadout
+		ARG 2 playerObject
+	METHOD B GetPartyMember (Lcom/threerings/util/Name;)Lcom/threerings/projectx/dungeon/data/PartyMember;
+	METHOD C GetPlayerOID (Lcom/threerings/util/Name;)I
+	METHOD e (Lcom/threerings/projectx/dungeon/data/PartyMember;)Ljava/lang/Comparable;
+		ARG 0 partyMember
+	METHOD fd GetString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD OD GetFalse ()Z

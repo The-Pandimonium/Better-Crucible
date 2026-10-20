@@ -1,0 +1,2 @@
+CLASS com/threerings/crowd/data/PlaceObject
+	FIELD occupantInfo occupantInfo Lcom/threerings/presents/dobj/DSet;

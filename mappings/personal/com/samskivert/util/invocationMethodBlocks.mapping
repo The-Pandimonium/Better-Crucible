@@ -1,0 +1,12 @@
+CLASS com/samskivert/util/d com/samskivert/util/invocationMethodBlocks
+	FIELD IG Integers [I
+	FIELD IH Bytes [B
+	FIELD IJ Shorts [S
+	FIELD IK Floats [F
+	FIELD IL Doubles [D
+	FIELD IM Longs [J
+	FIELD IP Objects [Ljava/lang/Object;
+	FIELD IQ Strings [Ljava/lang/String;
+	FIELD IR Random Ljava/util/Random;
+	METHOD a ([Ljava/lang/Object;IILjava/lang/Object;Ljava/util/Comparator;)I
+		ARG 4 comparator

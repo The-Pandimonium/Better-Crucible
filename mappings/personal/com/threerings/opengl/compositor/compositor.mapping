@@ -1,0 +1,5 @@
+CLASS com/threerings/opengl/compositor/b com/threerings/opengl/compositor/compositor
+	FIELD _combinedEffects _combinedEffects Ljava/util/List;
+	FIELD _ctx _ctx Lcom/threerings/opengl/util/d;
+	FIELD _dependencies _dependencies Ljava/util/Map;
+	FIELD _enqueueables _enqueueables Ljava/util/List;

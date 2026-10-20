@@ -1,0 +1,4 @@
+CLASS com/threerings/projectx/guild/data/b com/threerings/projectx/guild/data/GuildInterface
+	METHOD Tk GetUpkeepCost ()I
+	METHOD TS GetUpkeepTime ()J
+	METHOD TT IsInDefault ()Z

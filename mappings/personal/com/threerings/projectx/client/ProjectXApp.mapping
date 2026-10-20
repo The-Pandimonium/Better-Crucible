@@ -1,0 +1,5 @@
+CLASS com/threerings/projectx/client/ProjectXApp
+	FIELD _language _language Ljava/lang/String;
+	FIELD aLB steamdirector Lcom/threerings/projectx/partner/client/SteamDirector;
+	FIELD aLP observerlist Lcom/samskivert/util/ObserverList;
+	FIELD apT client Lcom/threerings/presents/client/Client;

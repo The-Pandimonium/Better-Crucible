@@ -1,0 +1,2 @@
+CLASS com/threerings/tudey/util/n com/threerings/tudey/util/guirootinterface
+	METHOD getRoot getRoot ()Lcom/threerings/opengl/gui/P;

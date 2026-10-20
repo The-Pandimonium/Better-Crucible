@@ -1,0 +1,9 @@
+CLASS com/threerings/projectx/town/data/TownSummary
+	FIELD _townId _townId I
+	FIELD colorizations colorizations [Lcom/threerings/opengl/renderer/config/ColorizationConfig;
+	FIELD defaultSceneId defaultSceneId I
+	FIELD description description Ljava/lang/String;
+	FIELD flags flags I
+	FIELD icon icon Ljava/lang/String;
+	FIELD name name Ljava/lang/String;
+	METHOD ZZ getTownID ()I

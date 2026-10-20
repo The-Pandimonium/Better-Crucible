@@ -1,0 +1,3 @@
+CLASS com/threerings/tudey/data/a
+	METHOD a (Lcom/threerings/tudey/data/InputEnqueueEvent;)V
+		ARG 1 inputEnqueueEvent

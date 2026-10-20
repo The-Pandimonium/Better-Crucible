@@ -1,0 +1,5 @@
+CLASS com/threerings/opengl/gui/event/f
+	METHOD keyPressed keyPressed (Lcom/threerings/opengl/gui/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD keyReleased keyReleased (Lcom/threerings/opengl/gui/event/KeyEvent;)V
+		ARG 1 keyEvent

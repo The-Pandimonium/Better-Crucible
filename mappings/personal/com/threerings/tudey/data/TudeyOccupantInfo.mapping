@@ -1,0 +1,4 @@
+CLASS com/threerings/tudey/data/TudeyOccupantInfo
+	FIELD pawnId pawnId I
+	METHOD <init> (Lcom/threerings/tudey/data/TudeyBodyObject;)V
+		ARG 1 tudeyBodyObject

@@ -1,0 +1,11 @@
+CLASS com/threerings/presents/dobj/DSet
+	FIELD _entries _entries [Lcom/threerings/presents/dobj/DSet$Entry;
+	FIELD _modCount _modCount I
+	FIELD _size _size I
+	METHOD f IsComparable (Ljava/lang/Comparable;)Lcom/threerings/presents/dobj/DSet$Entry;
+		ARG 1 comparable
+	METHOD isEmpty isEmpty ()Z
+	METHOD size size ()I
+	METHOD xT get ()Lcom/threerings/presents/dobj/DSet;
+	CLASS Entry
+		METHOD lj getComparableTownID ()Ljava/lang/Comparable;

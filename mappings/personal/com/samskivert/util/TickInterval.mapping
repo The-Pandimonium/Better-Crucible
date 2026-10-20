@@ -1,0 +1,3 @@
+CLASS com/samskivert/util/I com/samskivert/util/TickInterval
+	METHOD expired expired ()V
+	METHOD schedule schedule (JZ)V

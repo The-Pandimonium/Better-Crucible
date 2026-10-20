@@ -1,0 +1,5 @@
+CLASS com/threerings/projectx/dungeon/data/BasePartyMember
+	FIELD _playerOid _playerOid I
+	METHOD <init> (I)V
+		ARG 1 integer
+	METHOD Qu GetPlayerOID ()I

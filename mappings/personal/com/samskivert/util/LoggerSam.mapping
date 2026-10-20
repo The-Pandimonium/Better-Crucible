@@ -1,0 +1,2 @@
+CLASS com/samskivert/util/aC com/samskivert/util/LoggerSam
+	FIELD Lx logger Lcom/samskivert/util/Z;

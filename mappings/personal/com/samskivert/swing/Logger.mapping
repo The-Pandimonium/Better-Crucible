@@ -1,0 +1,2 @@
+CLASS com/samskivert/swing/l com/samskivert/swing/Logger
+	FIELD HN Logger Lcom/samskivert/util/Z;

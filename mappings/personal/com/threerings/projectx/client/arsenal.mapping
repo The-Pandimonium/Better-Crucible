@@ -1,0 +1,7 @@
+CLASS com/threerings/projectx/client/d com/threerings/projectx/client/arsenal
+	METHOD dL (Ljava/lang/String;)Z
+		ARG 1 string
+	METHOD setTitle setTitle (Ljava/lang/String;)V
+		ARG 1 string
+	CLASS f
+		METHOD getColorArg getColorArg ()Ljava/lang/String;

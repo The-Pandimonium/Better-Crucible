@@ -1,0 +1,2 @@
+CLASS com/threerings/opengl/renderer/config/ColorizationConfig
+	METHOD createConfig createConfig (IFFF)Lcom/threerings/opengl/renderer/config/ColorizationConfig$CustomOffsets;
