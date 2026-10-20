@@ -9,7 +9,7 @@
 
 ## Install
 
-Put `sk-crucible-controls.zip` (built as below) in `<Spiral Knights>/mods/` with Knight Launcher **closed**, open the launcher and enable "Crucible Editor Controls". The settings are a file in the folder the launcher makes for the mod, `<Spiral Knights>/mods/config/crucible-editor-controls/settings.properties`. The mod is made for one build of the game (`pxVersion` in `mod.json`); after a game update it has to be built again, see below.
+Put `sk-crucible-controls.zip` (built as below) in `<Spiral Knights>/mods/`, open the launcher and enable "Crucible Editor Controls". The settings are a file in the folder the launcher makes for the mod, `<Spiral Knights>/mods/config/crucible-editor-controls/settings.properties`. The mod is made for one build of the game (`pxVersion` in `mod.json`); after a game update it has to be built again, see below.
 
 ## Build
 
