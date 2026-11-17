@@ -29,4 +29,6 @@ The code is written with the readable names of [`mappings/`](mappings/projectx-p
 
 `mods/crucible-controls/patches/Patches.java` is the whole of what the mod changes in the game's own classes: the game's editor class is made to extend the mod's.
 
+This project was created with assistance from Claude coding to test functionality, implement core features, and to create documentation over used hooks.
+
 GPL-3.0, see [LICENSE](LICENSE).
